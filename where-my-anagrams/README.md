@@ -2,6 +2,7 @@
 
 * **Language: Ruby**
 * **Level:    5kyu**
+
 [Click here to see the kata on Codewars](https://www.codewars.com/kata/where-my-anagrams-at/train/ruby)
 
 ## Kata Details:
