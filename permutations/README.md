@@ -1,7 +1,7 @@
 # "Permutations"
 
-**Language:** Ruby
-**Level:**    4kyu
+* **Language:** Ruby
+* **Level:**    4kyu
 
 [Click here to see the kata on Codewars](https://www.codewars.com/kata/5254ca2719453dcc0b00027d)
 
