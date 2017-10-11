@@ -15,7 +15,7 @@ The function takes the parameter: n (don't worry, n is always strictly greater t
 
     [(a, b), ...] or [[a, b], ...] or {{a, b}, ...} or or [{a, b}, ...]
 
-with all `<(a, b)>` which are the possible removed numbers in the sequence 1 to n.
+with all `(a, b)` which are the possible removed numbers in the sequence 1 to n.
 
 `[(a, b), ...] or [[a, b], ...] or {{a, b}, ...} or ...`will be sorted in increasing order of the "a".
 
@@ -33,9 +33,8 @@ or
     
 or
 
-```removeNb(26) should return [[15, 21], [21, 15]]
-```
+    removeNb(26) should return [[15, 21], [21, 15]]
+    
 or
 
-```removNb(26) should return [ {15, 21}, {21, 15} ]
-```
+    removNb(26) should return [ {15, 21}, {21, 15} ]
