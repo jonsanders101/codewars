@@ -1,22 +1,24 @@
-"Where my anagrams at?"
+# "Where my anagrams at?"
 
-Language: Ruby
-Level:    5kyu
-Link:     https://www.codewars.com/kata/where-my-anagrams-at/train/ruby
+* **Language: Ruby**
+* **Level:    5kyu**
+[Click here to see the kata on Codewars](https://www.codewars.com/kata/where-my-anagrams-at/train/ruby)
 
-Kata Details:
+## Kata Details:
 
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
 
-'abba' & 'baab' == true
+```'abba' & 'baab' == true
 'abba' & 'bbaa' == true
 'abba' & 'abbba' == false
+```
 
 Write a function that will find all the anagrams of a word from a list. You will be given two inputs a word and an array with words. You should return an array of all the anagrams or an empty array if there are none. For example:
 
-anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
+```anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
 anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', 'racer']
 anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
 anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', 'racer']
 anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
+```
