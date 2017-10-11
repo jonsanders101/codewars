@@ -1,9 +1,10 @@
-Where my anagrams at?
+"Where my anagrams at?"
 
 Language: Ruby
-Level: 5kyu
-Link: https://www.codewars.com/kata/where-my-anagrams-at/train/ruby
+Level:    5kyu
+Link:     https://www.codewars.com/kata/where-my-anagrams-at/train/ruby
 
+Kata Details:
 
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
 
