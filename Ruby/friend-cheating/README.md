@@ -23,7 +23,7 @@ It happens that there are several possible (a, b). The function returns an empty
 
 (See examples for each language in "RUN EXAMPLES")
 
-#Examples:
+Examples:
 
 ```removNb(26) should return [(15, 21), (21, 15)]
 ```
