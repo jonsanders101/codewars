@@ -1,4 +1,4 @@
-const whatTimeIsIt = require('../clocky-mc-clock-face/solution.js')
+const whatTimeIsIt = require('../clocky-mc-clock-face/solution');
 const expect = require('chai').expect;
 
 describe("Example Tests", () => {
@@ -22,5 +22,3 @@ describe("Example Tests", () => {
         expect(whatTimeIsIt(360)).to.equal("12:00");    
     }); 
 });
-  
-  
