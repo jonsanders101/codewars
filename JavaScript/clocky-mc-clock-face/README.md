@@ -1,4 +1,13 @@
-Story
+# "Clocky McClockFace"
+
+* **Language:** JavaScript
+* **Level:**    6kyu
+
+[Click here to see the kata on Codewars](https://www.codewars.com/kata/59752e1f064d1261cb0000ec)
+
+## Kata Details:
+
+### Story
 Due to lack of maintenance the minute-hand has fallen off Town Hall clock face.
 
 And because the local council has lost most of our tax money to a Nigerian email scam there are no funds to fix the clock properly.
@@ -9,7 +18,7 @@ What a bunch of cheapskates!
 
 Can you do it?
 
-Kata
+### Kata
 Given the angle (in degrees) of the hour-hand, return the time in HH:MM format. Round down to the nearest minute.
 
 Examples
@@ -19,4 +28,6 @@ Examples
 09:00 = 270 degrees
 12:00 = 360 degrees
 Notes
+```
 0 <= angle <= 360
+```
