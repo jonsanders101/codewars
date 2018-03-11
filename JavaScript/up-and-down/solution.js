@@ -21,7 +21,3 @@ function arrange(strng) {
     words.forEach(sort);
     return words.join(" ");
 };
-    
-        
-console.log(arrange("who hit retaining The That a we taken"));
-console.log(arrange("on I came up were so grandmothers"));
