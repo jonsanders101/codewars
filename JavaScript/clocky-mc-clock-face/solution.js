@@ -14,3 +14,5 @@ const whatTimeIsIt = function(angle) {
     const formattedTime = time.toString()
     return formattedTime.length === 1 ? '0' + formattedTime : formattedTime;
   }
+
+  module.exports = whatTimeIsIt;
