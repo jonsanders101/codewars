@@ -1,5 +1,6 @@
-var whatTimeIsIt = function(angle) {
+const whatTimeIsIt = function(angle) {
     const fraction = angle / 360;
+    
     if (fraction === 0 || fraction === 1) {
       return '12:00';
     }
@@ -9,7 +10,7 @@ var whatTimeIsIt = function(angle) {
     return `${formatTime(hours)}:${formatTime(minutes)}`;
   }
   
-  var formatTime = function(time) {
+  const formatTime = function(time) {
     const formattedTime = time.toString()
     return formattedTime.length === 1 ? '0' + formattedTime : formattedTime;
   }
