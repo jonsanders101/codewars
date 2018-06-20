@@ -1,5 +1,5 @@
 describe('First test', () => {
     it('should work', () => {
-        expect(true).toBe(true);
+        expect([...[1, 2, 3]][1]).toBe(2);
     })
 })
