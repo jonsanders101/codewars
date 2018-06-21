@@ -9,6 +9,7 @@
   "author": "Jon Sanders",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "jasmine": "^3.1.0",
