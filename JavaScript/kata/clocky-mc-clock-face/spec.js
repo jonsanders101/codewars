@@ -1,6 +1,6 @@
 import whatTimeIsIt from './solution';
 
-fdescribe("Example Tests", () => {
+describe("Example Tests", () => {
     it("ex1", () => {
         expect(whatTimeIsIt(0)).toEqual("12:00");
     });
