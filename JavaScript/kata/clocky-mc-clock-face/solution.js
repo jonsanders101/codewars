@@ -17,4 +17,4 @@ const formatTime = (hours, minutes) => {
   }).join(':');
 };
 
-module.exports = whatTimeIsIt;
+export default whatTimeIsIt;
