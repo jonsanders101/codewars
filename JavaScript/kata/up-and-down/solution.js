@@ -1,4 +1,4 @@
-function arrange(strng) {
+const arrange = strng => {
     const words = strng.split(" ");
     const formatWords = index => {
         words[index] = (index % 2 === 0) ? words[index].toLowerCase() : words[index].toUpperCase();
@@ -21,3 +21,5 @@ function arrange(strng) {
     words.forEach(sort);
     return words.join(" ");
 };
+
+export default arrange;
