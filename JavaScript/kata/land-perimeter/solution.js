@@ -1,4 +1,4 @@
-function landPerimeter(arr) {
+export default function landPerimeter(arr) {
     var perimeter = 0;
     for (let x = 0; x < arr.length; x++) {
       for (let y = 0; y < arr[x].length; y++) {
