@@ -1,4 +1,4 @@
-function whiteSpace(bottomRow, middleNumbers) {
+const whiteSpace = (bottomRow, middleNumbers) => {
     var output = '';
       for (let i = 0; i < (bottomRow - middleNumbers.length)/2; i++) {
         output = output.concat(' ');
@@ -6,7 +6,7 @@ function whiteSpace(bottomRow, middleNumbers) {
     return output;
   }
   
-  function numbers(n) {
+  const numbers = (n) => {
     var output = '';
       for (let i = 1; i <= n; i++) {
         output = output.concat(i);
