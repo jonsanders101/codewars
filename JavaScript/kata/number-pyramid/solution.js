@@ -4,7 +4,7 @@ const whiteSpace = (bottomRow, middleNumbers) => {
         output = output.concat(' ');
       }
     return output;
-  }
+}
   
   const numbers = (n) => {
     var output = '';
@@ -16,11 +16,10 @@ const whiteSpace = (bottomRow, middleNumbers) => {
   }
 
 export default function pattern(n){
-    var output="";
+    var output='';
     if (n <= 0) {
         return output;
-    }
-
+    };
     var finalRow = numbers(n);
     for (let i = 1; i <= n; i++) {
         var middleNumbers = numbers(i);
