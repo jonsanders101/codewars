@@ -1,11 +1,7 @@
 export default function wave(word){
-    return word.split('').map((character, index) => {
-      if (character === ' ') {
-        return;
+    return Array.from(word, (character, index) => {
+      if (character !== ' ') {
+        return word.slice(0, index) + character.toUpperCase() + word.slice(index + 1);
       }
-      const wordArray = word.split('');
-      wordArray[index] = character.toUpperCase();
-      
-      return wordArray.join('');
     }).filter(Boolean);
 };
